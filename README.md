@@ -7,6 +7,7 @@ An implementation using [SF Evolve Forms](https://github.com/google/sf-evolve-fo
 - [SF Evolve Forms Demo](#sf-evolve-forms-demo)
   - [Contents](#contents)
   - [Setup](#setup)
+    - [Cloning](#cloning)
     - [New Scratch Org](#new-scratch-org)
     - [Installation](#installation)
     - [Explore](#explore)
@@ -15,6 +16,12 @@ An implementation using [SF Evolve Forms](https://github.com/google/sf-evolve-fo
       - [Field Sections](#field-sections)
 
 ## Setup
+
+### Cloning
+
+The SF Evolve Forms project is included in this repo as a submodule. To fully clone the repo and the submodule, include the `--recurse-submodules` flag. Otherwise, the sf-evolve-forms folder will not contain anything.
+
+`git clone git@github.com:mvogelgesang/evolveFormsExample.git --recurse-submodules`
 
 ### New Scratch Org
 
