@@ -1,0 +1,27 @@
+<template>
+  <div class="slds-box slds-theme_default">
+  <template if:false={editMode} >
+    
+    <c-dynamic-forms-field-section
+      record-id={recordId}
+      object-api-name={objectApiName}
+      section-label={label}
+      field-api-names={fieldApiName}
+      columns="1"
+    >
+    </c-dynamic-forms-field-section>
+    
+    
+  </template>
+  <template if:true={editMode}>
+    <lightning-input
+      type="color"
+      name="input-color"
+      label={label}
+      value={currentFieldValue}
+      onchange={handleColorChange}
+    ></lightning-input>
+  </template>
+  <div class="slds-p-around_xx-large" style={style}></div>
+  </div>
+</template>
